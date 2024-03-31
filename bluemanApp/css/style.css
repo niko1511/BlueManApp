@@ -1,0 +1,111 @@
+/* Estilo para el div de permisos */
+.permisos-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.permisos-icon {
+    font-size: 48px;
+    color: #007BFF;
+}
+
+.permisos-detail {
+    max-width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilo para el resto de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.feature {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature img {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.google-play-link {
+    display: inline-block;
+    background-color: #3c3c3c;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.google-play-link:hover {
+    background-color: #4c4c4c;
+}
+
+.google-play-link img {
+    width: 100px;
+    vertical-align: middle;
+}
+
+.google-play-link .download-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: bold;
+}
