@@ -2,35 +2,47 @@
 <html lang="es">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="./bluemanApp/css/style.css">
+    <link rel='stylesheet'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blueman: Tu Puerta al Asombro Tecnológico</title>
+    <title id="title"></title>
+    <script src="./bluemanApp/js/handlebars.min.js"></script>
+    <script type="module" src="./bluemanApp/js/index.js"></script>
 
 </head>
 
 <body>
-    <header>
-        <h1>Default Title</h1>
-    </header>
-    <p>Última actualización: 6 de feb 2024 </p>
+    <div id="appBar"></div>
+    <header id="header" class="gradiente"></header>
+
 
     <div id="container" class="container"></div>
+    <div id="drawer" class="drawer" onclick="closeDrawer()">
+        <div class="modal-content">
+            <!-- Contenido del drawer -->
+            <span class="close" onclick="closeDrawer()">&times;</span>
+            <p>Aquí va el contenido del drawer...</p>
+            <a href="#" onclick="closeDrawer()">Opción 1</a>
+            <a href="#" onclick="closeDrawer()">Opción 2</a>
+            <a href="#" onclick="closeDrawer()">Opción 3</a>
+        </div>
+    </div>
     <script id="template" type="text/x-handlebars-template">
         <div>
             <h2>{{container.heading}}</h2>
             <p>{{container.description}}</p>
+                {{#each container.permisos}}
             <div class="permisos-container">
 
-                {{#each container.permisos}}
                     <div>
                         <span class="permisos-icon">{{this.icon}}</span>
                         <div class="permisos-detail">
                         <strong>{{this.name}}:</strong> {{this.description}} </div>
                     </div>
-                {{/each}}
             </div>
+
+                {{/each}}
 
         </div>
 
@@ -53,15 +65,29 @@
     </a>
     </div>
 </script>
+    <script>
+        function openDrawer() {
+            document.getElementById("drawer").style.width = "250px";
+            document.getElementsByClassName("content")[0].style.marginLeft = "250px";
+        }
 
+        function closeDrawer() {
+            document.getElementById("drawer").style.width = "0";
+            document.getElementsByClassName("content")[0].style.marginLeft = "0";
+        }
+
+    </script>
 </body>
 <!-- Footer de Blueman -->
 <footer>
     <p>&copy; 2023 Blueman</p>
     <p>Contacto: info@bluemanapp.com</p>
-    <p><a href="https://niko1511.github.io/html/politica_de_privacidad.html">Política de Privacidad</a> | <a href="https://niko1511.github.io/html/politica_de_privacidad_eliminacion_de_cuenta.html">Eliminación de cuenta</a>| <a href="https://niko1511.github.io/html/termino_de_uso.html">Términos de Uso</a></p>
+    <p><a href="https://niko1511.github.io/html/politica_de_privacidad.html">Política de Privacidad</a> | <a
+            href="https://niko1511.github.io/html/politica_de_privacidad_eliminacion_de_cuenta.html">Eliminación de
+            cuenta</a>| <a href="https://niko1511.github.io/html/termino_de_uso.html">Términos de Uso</a></p>
 </footer>
-<script src="./bluemanApp/js/handlebars.min.js"></script>
-<script type="module" src="./bluemanApp/js/index.js"></script>
+
+
+
 
 </html>

@@ -5,8 +5,15 @@ export class MainIndex extends BaseIndex {
     super(head, body, footer);
   }
 
-  init() {
-    const titulo = document.querySelector("h1");
-    titulo.textContent = this.getHead();
+ 
+  appBarHtml =
+    "<div class='toolbar'>" +
+    "<button class='open-drawer' onclick='openDrawer()'>☰</button>" +
+    "<span>Blueman</span>" +
+    "<p class='menuOption' onclick='openDrawer()'>&vellip;</p>" +
+    "</div>";
+
+  appBar() {
+    return this.appBarHtml;
   }
 }

@@ -14,6 +14,9 @@ export class BaseIndex {
   setTitleHead(name) {
     this.head = name;
   }
+  getTitleHead() {
+    return this.head;
+  }
   getBody() {
     return this.body;
   }
