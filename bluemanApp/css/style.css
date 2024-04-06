@@ -1,233 +1,288 @@
 /* Estilo para el div de permisos */
 
 .permisos-container {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease; /* Añadido para un efecto de transición suave */
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease; /* Añadido para un efecto de transición suave */
 }
 
 .permisos-container:hover {
-    transform: translateY(-2px); /* Añade un efecto de elevación al pasar el mouse */
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Ajuste en la sombra al pasar el mouse */
+  transform: translateY(
+    -2px
+  ); /* Añade un efecto de elevación al pasar el mouse */
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Ajuste en la sombra al pasar el mouse */
 }
 
 .permisos-icon {
-    font-size: 48px;
-    color: #007BFF;
+  font-size: 48px;
+  color: #007bff;
 }
 
 .permisos-detail {
-    max-width: 100%;
-    font-size: 16px;
-    margin-top: 10px;
+  max-width: 100%;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
 /* Estilo para el resto de la página */
-body,html {
-	color: #333333;
-	font-size: 13px;
-	font-weight: 400;
-	line-height: 1.6;
-	font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    user-select: none;
+body,
+html {
+  color: #333333;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  user-select: none;
 }
 
 header {
-    background-color: #007BFF;
-    color: #fff;
-    text-align: center;
-    padding: 2%;
-    margin-top: 12%; 
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 2%;
+  margin-top: 12%;
 }
 
 .container {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 20px;
+  display: none;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .feature {
-    display: flex;
-    margin-bottom: 30px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .feature img {
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
 }
 
 @media (max-width: 768px) {
-    .feature {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .feature img {
-        margin: 0;
-        margin-bottom: 20px;
-    }
+  .feature img {
+    margin: 0;
+    margin-bottom: 20px;
+  }
 }
+
 
 /* Estilo para el footer */
 footer {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 footer p {
-    font-size: 14px;
-    margin: 0;
+  font-size: 14px;
+  margin: 0;
 }
 
 footer a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
-
 .google-play-link {
-    display: inline-block;
-    background-color: #3c3c3c;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 10px 20px;
-    border-radius: 3px;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
 
 .google-play-link:hover {
-    background-color: #4c4c4c;
+  background-color: #4c4c4c;
 }
 
 .google-play-link img {
-    width: 100px;
-    vertical-align: middle;
+  width: 100px;
+  vertical-align: middle;
 }
 
 .google-play-link .download-text {
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
-    font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 /* TOOLBAR / SLIDER DRAWER */
 .toolbar {
-    background-color: #333;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    justify-items: flex-start;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-    top: 0;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: flex-start;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
 }
 .menuOption {
-padding-right: 10px;
+  padding-right: 10px;
 }
 
-
 .drawer {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111111d5;
-    overflow-x: hidden;
-    padding-top: 6%;
-    transition: 0.5s;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #111111d5;
+  overflow-x: hidden;
+  padding-top: 6%;
+  transition: 0.5s;
 }
 
 .drawer a {
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
 }
 
 .drawer a:hover {
-    color: #f1f1f1;
+  color: #4d6cc2;
 }
 
 .content {
-    margin-left: 200px;
-    transition: margin-left 0.5s;
-    padding: 16px;
+  margin-left: 200px;
+  transition: margin-left 0.5s;
+  padding: 16px;
 }
-
 
 /* MODAL DRAWER */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.5);
-  }
-  
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-
-
- 
-/* COLORES GRADIENTES */
-.gradiente {
-    background: linear-gradient(to right, blue, violet);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+}
 
-.button:hover, .btn:hover {
-    color: #fff !important;
-    background: #af832d;
-  }
-  .button, .btn {
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* COLORES GRADIENTES */
+.gradiente {
+  background: linear-gradient(to right, blue, violet);
+}
+
+.button:hover,
+.btn:hover {
+  color: #fff !important;
+  background: #af832d;
+}
+.button,
+.btn {
+  font-family: "Poppins", sans-serif;
+  color: #fff !important;
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #0032a0;
+}
+
+/* LOAD SCREEN */
+
+.load-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0032a0;
+  display: flex;
+  justify-items: center;
+  z-index: 9999;
+  transition: transform 0.5s ease-in-out;
+}
+.hidden {
+  transform: translateY(-100%);
+}
+.show {
+  display: block;
+}
+
+.test{
     font-family: "Poppins", sans-serif;
     color: #fff !important;
     font-size: 14px;
     line-height: 1.6;
     font-weight: 600;
     text-transform: uppercase;
-    background: #0032A0;
+    background: linear-gradient(to right, rgb(88, 29, 165), rgb(158, 95, 201));
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-justify: distribute-all-lines;
+    align-content: center;
+   
+}
+.test a{
+    color: white;
+}
+.form__field, .form__legal {
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center
   }
+  .test input {
+    align-items: center;
+    padding: 0.3rem;
+    margin: 0 auto;
+    text-align: center
+  }
+  
+  
+  
+ 

@@ -26,6 +26,15 @@ document.getElementById("appBar").innerHTML = index.appBar();
 document.getElementById("header").innerHTML = titleH1;
 document.getElementById("container").innerHTML = html;
 
+// Pestaña lateral deslizable 
+document.getElementById("drawer").innerHTML = index.navigationView();
+
 // Creamos el formulario de contacto
 document.getElementById("form").innerHTML =
   form.myAccount() + form.createNewAccount();
+
+  // Creamos el formulario de contacto
+  document.getElementById("form-contact").innerHTML =form.createNewFormContact();
+
+
+

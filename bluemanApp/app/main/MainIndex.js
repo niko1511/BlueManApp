@@ -13,7 +13,18 @@ export class MainIndex extends BaseIndex {
     "<p class='menuOption' onclick='openDrawer()'>&vellip;</p>" +
     "</div>";
 
+    navigationViewHtml = ` <div class="modal-content">
+<span class="close" onclick="closeDrawer()">&times;</span>
+<p>Aquí va el contenido del drawer...</p>
+<a href="#" onclick="closeDrawer()">Opción 1</a>
+<a href="#" onclick="closeDrawer()">Opción 2</a>
+<a href="#" onclick="closeDrawer()">Opción 3</a>
+</div>`
+
   appBar() {
     return this.appBarHtml;
+  }
+  navigationView(){
+    return this.navigationViewHtml;
   }
 }

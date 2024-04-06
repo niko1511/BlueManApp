@@ -12,24 +12,26 @@
 
 </head>
 
+
 <body>
+    <div id="loadScreen" class="load-screen"></div>
+    <script>
+
+        window.addEventListener('load', function () {
+            document.getElementById('loadScreen').classList.add('hidden');
+
+        });
+    </script>
+
     <div id="appBar"></div>
     <header id="header" class="gradiente"></header>
-
+    <div id="drawer" class="drawer" onclick="closeDrawer()"></div>
 
 
     <div id="container" class="container"></div>
-    <div id="drawer" class="drawer" onclick="closeDrawer()">
-        <div class="modal-content">
-            <!-- Contenido del drawer -->
-            <span class="close" onclick="closeDrawer()">&times;</span>
-            <p>Aquí va el contenido del drawer...</p>
-            <a href="#" onclick="closeDrawer()">Opción 1</a>
-            <a href="#" onclick="closeDrawer()">Opción 2</a>
-            <a href="#" onclick="closeDrawer()">Opción 3</a>
-        </div>
-    </div>
+
     <script id="template" type="text/x-handlebars-template">
+
         <div>
             <h2>{{container.heading}}</h2>
             <p>{{container.description}}</p>
@@ -67,6 +69,7 @@
     </div>
 </script>
     <script>
+        document.getElementById('container').classList.add('show');
         function openDrawer() {
             document.getElementById("drawer").style.width = "250px";
             document.getElementsByClassName("content")[0].style.marginLeft = "250px";
@@ -79,7 +82,10 @@
 
     </script>
     <div id="form"></div>
+    <div id="form-contact"></div>
 </body>
+
+
 <!-- Footer de Blueman -->
 <footer>
     <p>&copy; 2023 Blueman</p>
