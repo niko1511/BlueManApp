@@ -34,7 +34,8 @@ document.getElementById("form").innerHTML =
   form.myAccount() + form.createNewAccount();
 
   // Creamos el formulario de contacto
-  document.getElementById("form-contact").innerHTML =form.createNewFormContact();
+  // document.getElementById("form-contact").innerHTML =form.createNewFormContact();
+  document.getElementById("test").innerHTML =form.createNewFormContact();
 
 
 
