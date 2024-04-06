@@ -78,7 +78,20 @@ header {
     margin-bottom: 20px;
   }
 }
-
+/* DESCIPTION URL */
+.description-url{
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+  transform: translateY(-100%);
+  z-index: 1001;
+}
 
 /* Estilo para el footer */
 footer {

@@ -21,11 +21,24 @@
             document.getElementById('loadScreen').classList.add('hidden');
 
         });
+        window.addEventListener('scroll',toggleDrescriptionUrl)
+
+        function toggleDrescriptionUrl(){
+            var descriptionurl = document.querySelector('.description-url');
+            if (window.scrollY === 0){
+                descriptionurl.style.transform = 'translateY(0)';
+            }else{
+                descriptionurl.style.transform = 'traslateY(100%)';
+            }
+        }
+        toggleDrescriptionUrl();
     </script>
 
     <div id="appBar"></div>
     <header id="header" class="gradiente"></header>
     <div id="drawer" class="drawer" onclick="closeDrawer()"></div>
+    <div class="description-url"> <a href="https://github.com/niko1511/BlueManApp">Ver repositorio github</a></div>
+
 
 
     <div id="container" class="container"></div>
