@@ -9,12 +9,10 @@
     <title id="title"></title>
     <script src="./bluemanApp/js/handlebars.min.js"></script>
     <script type="module" src="./bluemanApp/js/index.js"></script>
-
-
 </head>
 
 
-<body>
+<body class="gradiente">
     <div id="loadScreen" class="load-screen"></div>
     <script>
 
@@ -40,13 +38,13 @@
     <header id="header" class="gradiente"></header>
     <div id="drawer" class="drawer" onclick="closeDrawer()"></div>
 
-    
+
 
     <div id="container" class="container"></div>
 
     <script id="template" type="text/x-handlebars-template">
 
-        <div>
+        <div >
             <h2>{{container.heading}}</h2>
             <p>{{container.description}}</p>
                 {{#each container.permisos}}
@@ -75,14 +73,19 @@
 
     <h2>{{container.footer.heading}}</h2>
     <p>{{container.footer.description}}</p>
+    <div id="google-play">
+
     <a href="{{container.footer.link.url}}" target="_blank"
         class="google-play-link">
         <img src="./bluemanApp/img/google-play-badge.png" alt="Google Play Store logo">
         <span class="download-text">{{container.footer.link.text}}</span>
     </a>
+</div>
+
     </div>
 </script>
     <script>
+
         document.getElementById('container').classList.add('show');
         function openDrawer() {
             document.getElementById("drawer").style.width = "250px";
@@ -94,22 +97,17 @@
             document.getElementsByClassName("content")[0].style.marginLeft = "0";
         }
 
+
     </script>
     <div id="form"></div>
     <div id="form-contact"></div>
-    <div class="test" id="test"></div>
-    
+    <div id="test"></div>
+
 </body>
 
 
 <!-- Footer de Blueman -->
-<footer>
-    <p>&copy; 2023 Blueman</p>
-    <p>Contacto: info@bluemanapp.com</p>
-    <p><a href="https://niko1511.github.io/html/politica_de_privacidad.html">Política de Privacidad</a> | <a
-            href="https://niko1511.github.io/html/politica_de_privacidad_eliminacion_de_cuenta.html">Eliminación de
-            cuenta</a>| <a href="https://niko1511.github.io/html/termino_de_uso.html">Términos de Uso</a></p>
-</footer>
+<footer></footer>
 
 
 

@@ -85,7 +85,7 @@ Texto alineado
 
 ### Contacto
 
-<p>Si tienes alguna pregunta, sugerencia o simplemente quieres ponerte en contacto, no dudes en enviarme un correo electrónico a [tu correo electrónico] o abrir un problema en este repositorio.</p>
+<p>Si tienes alguna pregunta, sugerencia o simplemente quieres ponerte en contacto, no dudes en enviarme un correo electrónico a niko1511@gmail.com o abrir un problema en este repositorio.</p>
 
 ¡Gracias por tu interés en el Proyecto BlueMan!
 

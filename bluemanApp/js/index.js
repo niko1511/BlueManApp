@@ -29,13 +29,19 @@ document.getElementById("container").innerHTML = html;
 // Pestaña lateral deslizable 
 document.getElementById("drawer").innerHTML = index.navigationView();
 
+
+
 // Creamos el formulario de contacto
-document.getElementById("form").innerHTML =
-  form.myAccount() + form.createNewAccount();
+// document.getElementById("form").innerHTML =form.myAccount() + form.createNewAccount();
 
   // Creamos el formulario de contacto
   // document.getElementById("form-contact").innerHTML =form.createNewFormContact();
-  document.getElementById("test").innerHTML =form.createNewFormContact();
+  // document.getElementById("test").innerHTML =form.createNewFormContact();
+ document.querySelector("footer").innerHTML =`  <p>&copy; 2023 Blueman</p>
+  <p>Contacto: info@bluemanapp.com</p>
+  <p><a href="https://niko1511.github.io/html/politica_de_privacidad.html">Política de Privacidad</a> | <a
+          href="https://niko1511.github.io/html/politica_de_privacidad_eliminacion_de_cuenta.html">Eliminación de
+          cuenta</a>| <a href="https://niko1511.github.io/html/termino_de_uso.html">Términos de Uso</a></p>`
 
 
 
