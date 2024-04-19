@@ -22,6 +22,7 @@ Proyecto en construcción
 [Publicación](#publicación)
 
 [Contacto](#contacto)
+[Beta Testing](#beta-testing)
 
 <br><br>
 
@@ -91,6 +92,19 @@ Texto alineado
 
 
 [Subir](#top)
+
+### Beta Testing
+
+**¡Nos encantaría tener tu ayuda para hacer nuestra aplicación mejor!**
+
+Si estás interesado en probar las últimas características de nuestra aplicación antes de que se lancen oficialmente, puedes unirte a nuestro programa de beta testers. Como beta tester, recibirás acceso anticipado a las nuevas características y podrás darnos tu valioso feedback.
+
+¡Todo lo que necesitas hacer es seguir el enlace de abajo y descargar nuestra versión beta!
+
+[Aquí puedes unirte a nuestro programa beta]([enlace_a_la_version_beta](https://play.google.com/store/apps/details?id=com.nikosoft.nksf.blueman))
+
+Sus opiniones y aportaciones son extremadamente importantes para nosotros y agradecemos su tiempo y esfuerzo por ayudarnos a mejorar.
+
 
 
 
