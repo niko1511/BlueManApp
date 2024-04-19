@@ -102,7 +102,7 @@ Si estás interesado en probar las últimas características de nuestra aplicaci
 
 ¡Todo lo que necesitas hacer es seguir el enlace de abajo y descargar nuestra versión beta!
 
-[Aquí puedes unirte a nuestro programa beta]([enlace_a_la_version_beta](https://play.google.com/store/apps/details?id=com.nikosoft.nksf.blueman))
+ <a href="[https://play.google.com/store/apps/details?id=com.nikosoft.nksf.blueman](https://play.google.com/store/apps/details?id=com.nikosoft.nksf.blueman)">Aquí puedes unirte a nuestro programa beta</a> 
 
 Sus opiniones y aportaciones son extremadamente importantes para nosotros y agradecemos su tiempo y esfuerzo por ayudarnos a mejorar.
 
