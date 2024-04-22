@@ -313,6 +313,25 @@ footer a {
     text-align: center
   }
   
+ /* Estilos para el botón */
+#scrollBtn {
+  position: fixed;
+  bottom: 20%;
+  right: 2%;
+  z-index: 999;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  opacity: 0; /* Inicialmente oculto */
+  transition: opacity 1.0s ease;
+}
+
+#scrollBtn:hover {
+  background-color: #0056b3;
+}
   
-  
- 

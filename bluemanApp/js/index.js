@@ -45,3 +45,33 @@ document.getElementById("drawer").innerHTML = index.navigationView();
 
 
 
+          // Obtener el botón
+var scrollBtn = document.getElementById("scrollBtn");
+
+// Cuando el usuario hace scroll, mostrar o ocultar el botón
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+        scrollBtn.style.opacity = "1";
+    } else {
+        // scrollBtn.style.display = "none";
+        scrollBtn.style.opacity = "0";
+    }
+}
+
+// Cuando el usuario hace clic en el botón, desplazar suavemente hasta la parte superior de la página
+scrollBtn.addEventListener("click", function() {
+    scrollToTop(500); // Tiempo en milisegundos para la animación
+});
+
+function scrollToTop(scrollDuration) {
+    var scrollStep = -window.scrollY / (scrollDuration / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval); 
+    },15);
+}
+
