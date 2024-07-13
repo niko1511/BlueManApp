@@ -1,0 +1,29 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="AdaptationSet">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Representation">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="BaseURL" type="xs:string"/>
+                            <xs:element name="SegmentBase">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Initialization" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="indexRange" type="xs:string" use="required"/>
+                                    <xs:attribute name="timescale" type="xs:int" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:int" use="required"/>
+                        <xs:attribute name="bandwidth" type="xs:int" use="required"/>
+                        <xs:attribute name="codecs" type="xs:string" use="required"/>
+                        <xs:attribute name="mimeType" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:int" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
