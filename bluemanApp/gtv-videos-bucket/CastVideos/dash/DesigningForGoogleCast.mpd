@@ -3,7 +3,7 @@
   <Period>
     <AdaptationSet id="0">
       <Representation id="0" bandwidth="1020058" codecs="avc1.64001f" mimeType="video/mp4" width="1280" height="720">
-        <BaseURL>des.mp4</BaseURL>
+        <BaseURL>DesigningForGoogleCast.mp4</BaseURL>
         <SegmentBase indexRange="673-1064" timescale="30000">
           <Initialization range="0-672"/>
         </SegmentBase>
@@ -12,7 +12,7 @@
     <AdaptationSet id="1">
       <Representation id="1" bandwidth="193569" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-        <BaseURL>des.mp4</BaseURL>
+        <BaseURL>DesigningForGoogleCast.mp4</BaseURL>
         <SegmentBase indexRange="622-1061" timescale="44100">
           <Initialization range="0-621"/>
         </SegmentBase>
