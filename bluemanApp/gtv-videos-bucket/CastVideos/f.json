@@ -32,17 +32,8 @@
                     "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
                     "title": "JetPack Compose Images",
                     "studio": "BlueMan - 2024",
-                    "duration" : 333,
-                    "tracks": [
-                        {
-                            "id": "1",
-                            "type": "text",
-                            "subtype": "captions",
-                            "contentId": "DesigningForGoogleCast-en.vtt",
-                            "name": "English Subtitle",
-                            "language": "en-US"
-                        }
-                    ]
+                    "duration" : 333
+
                 },
                 {
                     "subtitle": "Este es un segundo video para comprobar si el error esta en el video descargado anteriormente ",
@@ -68,17 +59,8 @@
                     "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
                     "title": "Designing ForGoogle Cast",
                     "studio": "BlueMan - 2024",
-                    "duration" : 333,
-                    "tracks": [
-                        {
-                            "id": "1",
-                            "type": "text",
-                            "subtype": "captions",
-                            "contentId": "DesigningForGoogleCast-en.vtt",
-                            "name": "English Subtitle",
-                            "language": "en-US"
-                        }
-                    ]
+                    "duration" : 333
+
                 }
 
             ]
