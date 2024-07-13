@@ -43,7 +43,44 @@
                             "language": "en-US"
                         }
                     ]
+                },
+                {
+                    "subtitle": "Este es un segundo video para comprobar si el error esta en el video descargado anteriormente ",
+                    "sources": [
+                        {
+                            "type": "hls",
+                            "mime": "application/x-mpegurl",
+                            "url": "DesigningForGoogleCast.m3u8"
+                        },
+                        {
+                            "type": "dash",
+                            "mime": "application/dash+xml",
+                            "url": "DesigningForGoogleCast.mpd"
+                        },
+                        {
+                            "type": "mp4",
+                            "mime": "videos/mp4",
+                            "url": "DesigningForGoogleCast.mp4"
+                        }
+                    ],
+                    "thumb": "images/DesigningForGoogleCast-480x270.png",
+                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
+                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
+                    "title": "Designing ForGoogle Cast",
+                    "studio": "BlueMan - 2024",
+                    "duration" : 333,
+                    "tracks": [
+                        {
+                            "id": "1",
+                            "type": "text",
+                            "subtype": "captions",
+                            "contentId": "DesigningForGoogleCast-en.vtt",
+                            "name": "English Subtitle",
+                            "language": "en-US"
+                        }
+                    ]
                 }
+
             ]
         }
     ]
