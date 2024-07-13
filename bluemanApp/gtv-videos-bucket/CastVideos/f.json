@@ -4,7 +4,7 @@
             "name": "Movies",
             "hls":"https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/hls/",
             "dash":"https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/dash/",
-            "mp4":"https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/mp4/",
+            "mp4":"https://www.youtube.com/",
             "images":"https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/images/",
             "tracks":"https://commondatastorage.googleapis.com/gtv-videos-bucket/CastVideos/tracks/",
             "videos": [
@@ -24,7 +24,7 @@
                         {
                             "type": "mp4",
                             "mime": "videos/mp4",
-                            "url": "DesigningForGoogleCast.mp4"
+                            "url": "watch?v=N7Q-XyTy_Ug&list=PLDgPR54j9iV1N1istBsuo8nGTAyc6osp2"
                         }
                     ],
                     "thumb": "images/DesigningForGoogleCast-480x270.jpg",
