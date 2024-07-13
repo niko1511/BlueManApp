@@ -4,7 +4,7 @@
             "name": "Movies",
             "hls":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/hls/",
             "dash":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/dash/",
-            "mp4":"https://www.youtube.com/",
+            "mp4":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/mp4/",
             "images":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/images/",
             "tracks":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/tracks/",
             "videos": [
@@ -24,7 +24,7 @@
                         {
                             "type": "mp4",
                             "mime": "videos/mp4",
-                            "url": "watch?v=N7Q-XyTy_Ug&list=PLDgPR54j9iV1N1istBsuo8nGTAyc6osp2"
+                            "url": "des.mp4"
                         }
                     ],
                     "thumb": "images/DesigningForGoogleCast-480x270.png",
