@@ -12,7 +12,7 @@
     <AdaptationSet id="1">
       <Representation id="1" bandwidth="193569" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-        <BaseURL>DesigningForGoogleCastAudio.mp4</BaseURL>
+        <BaseURL>watch?v=N7Q-XyTy_Ug&list=PLDgPR54j9iV1N1istBsuo8nGTAyc6osp2</BaseURL>
         <SegmentBase indexRange="622-1061" timescale="44100">
           <Initialization range="0-621"/>
         </SegmentBase>
