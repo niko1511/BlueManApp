@@ -3,9 +3,9 @@
 #EXT-X-VERSION:3
 #EXT-X-MEDIA-SEQUENCE:0
 #EXT-X-PLAYLIST-TYPE:VOD
-#EXTINF:9.97663,	
-designing_for_google_cast/fileSequence0.ts
-#EXTINF:9.97663,	
+#EXTINF:9.97663,
+content://storage.googleapis.com/blueman-cast-video/designing_for_google_cast/fileSequence0.ts
+#EXTINF:9.97663,
 designing_for_google_cast/fileSequence1.ts
 #EXTINF:9.97663,	
 designing_for_google_cast/fileSequence2.ts

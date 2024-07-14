@@ -4,7 +4,7 @@
             "name": "Movies",
             "hls":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/hls/",
             "dash":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/dash/",
-            "mp4":"https://storage.googleapis.com/blueman-cast-video/",
+            "mp4":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/dash/",
             "images":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/images/",
             "tracks":"https://niko1511.github.io/BlueManApp/bluemanApp/gtv-videos-bucket/CastVideos/tracks/",
             "videos": [
@@ -14,50 +14,23 @@
                         {
                             "type": "hls",
                             "mime": "application/x-mpegurl",
-                            "url": "DesigningForGoogleCast.m3u8"
+                            "url": "test/playlist.m3u8"
                         },
                         {
                             "type": "dash",
                             "mime": "application/dash+xml",
-                            "url": "DesigningForGoogleCast.mpd"
+                            "url": "test/output.mpd"
                         },
                         {
                             "type": "mp4",
                             "mime": "videos/mp4",
-                            "url": "testvideo.mp4"
+                            "url": "test/test.mp4"
                         }
                     ],
                     "thumb": "images/DesigningForGoogleCast-480x270.png",
                     "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
                     "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
                     "title": "JetPack Compose Images",
-                    "studio": "BlueMan - 2024",
-                    "duration" : 333
-
-                },
-                {
-                    "subtitle": "Este es un segundo video para comprobar si el error esta en el video descargado anteriormente ",
-                    "sources": [
-                        {
-                            "type": "hls",
-                            "mime": "application/x-mpegurl",
-                            "url": "DesigningForGoogleCast.m3u8"
-                        },
-                        {
-                            "type": "dash",
-                            "mime": "application/dash+xml",
-                            "url": "DesigningForGoogleCast.mpd"
-                        },
-                        {
-                            "type": "mp4",
-                            "mime": "videos/mp4",
-                            "url": "testvideo.mp4"
-                        }
-                    ],
-                    "thumb": "images/DesigningForGoogleCast-480x270.png",
-                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
-                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
-                    "title": "Designing ForGoogle Cast",
                     "studio": "BlueMan - 2024",
                     "duration" : 333
 
