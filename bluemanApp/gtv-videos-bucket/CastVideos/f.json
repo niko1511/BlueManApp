@@ -34,8 +34,142 @@
                     "studio": "BlueMan - 2024",
                     "duration" : 333
 
-                }
+                },
+                {
+                    "subtitle": "Video de prueba sobre JetPack Compose, es un video obtenido de youtube para hacer las pruebas y ver si es posible reproducir en el telefono y enviarlo por Cast de Google, aqui es una breve descripción de lo que podría hacer, tendre que crear una base de datos pero bueno con el tiempo es posible, ya que no hara falta actualizar la aplicación sino la base de datos, por el momento se esta probando github quizás mas adelante contrate un servidor ",
+                    "sources": [
+                        {
+                            "type": "hls",
+                            "mime": "application/x-mpegurl",
+                            "url": "del-reves/playlist.m3u8"
+                        },
+                        {
+                            "type": "dash",
+                            "mime": "application/dash+xml",
+                            "url": "del-reves/del-reves.mpd"
+                        },
+                        {
+                            "type": "mp4",
+                            "mime": "videos/mp4",
+                            "url": "mp4/del-reves.mp4"
+                        }
+                    ],
+                    "thumb": "images/DesigningForGoogleCast-480x270.png",
+                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
+                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
+                    "title": "Del revés",
+                    "studio": "BlueMan - 2024",
+                    "duration" : 333
 
+                },
+                {
+                    "subtitle": "Video de prueba sobre JetPack Compose, es un video obtenido de youtube para hacer las pruebas y ver si es posible reproducir en el telefono y enviarlo por Cast de Google, aqui es una breve descripción de lo que podría hacer, tendre que crear una base de datos pero bueno con el tiempo es posible, ya que no hara falta actualizar la aplicación sino la base de datos, por el momento se esta probando github quizás mas adelante contrate un servidor ",
+                    "sources": [
+                        {
+                            "type": "hls",
+                            "mime": "application/x-mpegurl",
+                            "url": "el-bebe-jefazo/playlist.m3u8"
+                        },
+                        {
+                            "type": "dash",
+                            "mime": "application/dash+xml",
+                            "url": "el-bebe-jefazo/output.mpd"
+                        },
+                        {
+                            "type": "mp4",
+                            "mime": "videos/mp4",
+                            "url": "mp4/el-bebe-jefazo.mp4"
+                        }
+                    ],
+                    "thumb": "images/DesigningForGoogleCast-480x270.png",
+                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
+                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
+                    "title": "El Bebé Jefazo",
+                    "studio": "BlueMan - 2024",
+                    "duration" : 333
+
+                },
+                {
+                    "subtitle": "Video de prueba sobre JetPack Compose, es un video obtenido de youtube para hacer las pruebas y ver si es posible reproducir en el telefono y enviarlo por Cast de Google, aqui es una breve descripción de lo que podría hacer, tendre que crear una base de datos pero bueno con el tiempo es posible, ya que no hara falta actualizar la aplicación sino la base de datos, por el momento se esta probando github quizás mas adelante contrate un servidor ",
+                    "sources": [
+                        {
+                            "type": "hls",
+                            "mime": "application/x-mpegurl",
+                            "url": "el-grinch/playlist.m3u8"
+                        },
+                        {
+                            "type": "dash",
+                            "mime": "application/dash+xml",
+                            "url": "el-grinch/output.mpd"
+                        },
+                        {
+                            "type": "mp4",
+                            "mime": "videos/mp4",
+                            "url": "mp4/el-grinch.mp4"
+                        }
+                    ],
+                    "thumb": "images/DesigningForGoogleCast-480x270.png",
+                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
+                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
+                    "title": "El Grinch",
+                    "studio": "BlueMan - 2024",
+                    "duration" : 333
+
+                },
+                {
+                    "subtitle": "Video de prueba sobre JetPack Compose, es un video obtenido de youtube para hacer las pruebas y ver si es posible reproducir en el telefono y enviarlo por Cast de Google, aqui es una breve descripción de lo que podría hacer, tendre que crear una base de datos pero bueno con el tiempo es posible, ya que no hara falta actualizar la aplicación sino la base de datos, por el momento se esta probando github quizás mas adelante contrate un servidor ",
+                    "sources": [
+                        {
+                            "type": "hls",
+                            "mime": "application/x-mpegurl",
+                            "url": "elemental/playlist.m3u8"
+                        },
+                        {
+                            "type": "dash",
+                            "mime": "application/dash+xml",
+                            "url": "elemental/output.mpd"
+                        },
+                        {
+                            "type": "mp4",
+                            "mime": "videos/mp4",
+                            "url": "mp4/elemental.mp4"
+                        }
+                    ],
+                    "thumb": "images/DesigningForGoogleCast-480x270.png",
+                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
+                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
+                    "title": "Elemental",
+                    "studio": "BlueMan - 2024",
+                    "duration" : 333
+
+                },
+                {
+                    "subtitle": "Video de prueba sobre JetPack Compose, es un video obtenido de youtube para hacer las pruebas y ver si es posible reproducir en el telefono y enviarlo por Cast de Google, aqui es una breve descripción de lo que podría hacer, tendre que crear una base de datos pero bueno con el tiempo es posible, ya que no hara falta actualizar la aplicación sino la base de datos, por el momento se esta probando github quizás mas adelante contrate un servidor ",
+                    "sources": [
+                        {
+                            "type": "hls",
+                            "mime": "application/x-mpegurl",
+                            "url": "los-increibles-2/playlist.m3u8"
+                        },
+                        {
+                            "type": "dash",
+                            "mime": "application/dash+xml",
+                            "url": "los-increibles-2/output.mpd"
+                        },
+                        {
+                            "type": "mp4",
+                            "mime": "videos/mp4",
+                            "url": "mp4/los-increibles-2.mp4"
+                        }
+                    ],
+                    "thumb": "images/DesigningForGoogleCast-480x270.png",
+                    "image-480x270": "480x270/DesigningForGoogleCast2-480x270.png",
+                    "image-780x1200": "780x1200/DesigningForGoogleCast-887x1200.png",
+                    "title": "Los Increibles 2",
+                    "studio": "BlueMan - 2024",
+                    "duration" : 333
+
+                }
             ]
         }
     ]
